@@ -1,9 +1,9 @@
 import java.util.Scanner;
-public class Team{
+public class team{
 	public static void main(String args[]){
 		Scanner sc = new Scanner(System.in);
 		int total = 0;
-		while(sc.nextInt()){
+		while(sc.hasNextInt()){
 			int n = sc.nextInt();
 			for(int i=0;i<n;i++){
 			int x = 0;
